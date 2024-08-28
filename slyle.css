@@ -71,8 +71,9 @@ header div{
 }
 .action{
     width: 50%;
-    justify-content: right;
-    align-items: right;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
 .action a{
     background-color: var(--secundary-color);
